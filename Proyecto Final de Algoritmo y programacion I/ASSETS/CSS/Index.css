@@ -1,0 +1,129 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+.nav-item{
+    background-color: #efefef9b;
+}
+.nav-link{
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #0b2545;
+    color: #fff;
+}        
+.btn {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #e0e0e0;
+}
+
+.btn:hover .menu {
+    display: block;
+}
+
+header .logo {
+    margin: 10px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.carrusel img {
+    height: 700px;
+    
+}
+
+.carrusel h5 {
+    background: #efefef9b;
+    color: black;
+    border-radius: 25px;
+}
+
+.carrusel p {
+    background: #efefef9b;
+    color: black;
+    border-radius: 25px;
+}
+
+section h3 {
+    padding: 20px;
+    text-align: center;
+    border: 2px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+footer {
+    background-color:#0b2545 ;
+    color: #fff;
+    padding: 10px;
+    height: 150 px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer p{
+    margin: 01rem;
+    padding: 15px;
+}
+
+/* Estilo para el botón de cerrar sesión */
+#logout {
+    background-color: rgb(201, 0, 0); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+#logout:hover {
+    background-color: darkred; 
+    transform: scale(1.05); 
+}
